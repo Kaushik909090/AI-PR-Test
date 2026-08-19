@@ -41,7 +41,8 @@ def maximum(numbers):
 
     return max(numbers)
 
-
+def absolute_difference(a, b):
+    return abs(a - b)
 def minimum(numbers):
     if not numbers:
         return None

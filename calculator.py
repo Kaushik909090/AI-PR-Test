@@ -48,3 +48,5 @@ def minimum(numbers):
         return None
 
     return min(numbers)
+def percentage(a, b):
+    return (a / b) * 100

@@ -41,9 +41,6 @@ def maximum(numbers):
 def absolute_difference(a, b):
     return abs(a - b)
 def minimum(numbers):
-    if not numbers:
-        return None
-
     return min(numbers)
 def percentage(a, b):
     return (a / b) * 100

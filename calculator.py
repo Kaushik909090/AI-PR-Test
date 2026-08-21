@@ -26,6 +26,8 @@ def modulus(a, b):
         return None
 
     return a % b
+def square(a):
+    return a * a
 
 
 def average(numbers):
